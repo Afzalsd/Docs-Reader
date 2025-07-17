@@ -1,0 +1,11 @@
+python-dotenv==1.1.1        # For reading .env files – latest available :contentReference[oaicite:1]{index=1}
+langchain==0.3.26          # Latest LangChain core package :contentReference[oaicite:2]{index=2}
+langchain-community==0.0.x # Currently at 0.0.x (no bump yet) :contentReference[oaicite:3]{index=3}
+langchain-openai==0.3.28   # Latest compatibility package for OpenAI integration :contentReference[oaicite:4]{index=4}
+unstructured==0.14.4       # No newer version found — current is fine
+# onnxruntime – leave commented per platform-specific instructions
+chromadb==1.0.15           # Latest stable release :contentReference[oaicite:5]{index=5}
+openai==1.97.0             # Latest official Python package :contentReference[oaicite:6]{index=6}
+tiktoken==0.9.0            # Latest tokenizer package :contentReference[oaicite:7]{index=7}
+
+# Markdown extras: install via `pip install "unstructured[md]"` after requirements
